@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/samsung/nobleltespr/full_nobleltespr.mk)
+$(call inherit-product, device/samsung/zerofltespr/full_zerofltespr.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
@@ -22,5 +22,5 @@ $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 # Inherit common CM phone.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-PRODUCT_DEVICE := nobleltespr
-PRODUCT_NAME := cm_nobleltespr
+PRODUCT_DEVICE := zerofltespr
+PRODUCT_NAME := cm_zerofltespr

@@ -14,15 +14,15 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/nobleltespr
+LOCAL_PATH := device/samsung/zerofltespr
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/samsung/nobleltespr/nobleltespr-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/zerofltespr/zerofltespr-vendor.mk)
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += device/samsung/nobleltespr/overlay
+DEVICE_PACKAGE_OVERLAYS += device/samsung/zerofltespr/overlay
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
